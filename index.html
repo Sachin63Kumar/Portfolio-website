@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sachin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="home" id="home">
+            <div class="container-lg" style="margin-left: auto; margin-right: auto;">
+                <div class="row align-items-center align-content-center" id="avatar-section">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="home-img text-center">
+                            <img src="./images/developer_avatar.png" class="rounded-circle avatar-img"
+                                alt="developer_avatar">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                        <div class="home-text">
+                            <p class="text-muted mb-1">Hello I'm</p>
+                            <h2 class="fs-4">Sachin Kumar</h2>
+                            <h1 class="text-primary text-uppercase fs-1 fw-bold">Web Developer</h1>
+                            <p class="mt-2 text-muted intro">I am passionate about web and software development and have
+                                hands-on experience with various technologies. I am a quick learner and always eager to
+                                take on new challenges.</p>
+                            <a href="https://drive.google.com/file/d/1YQFNhbkLR_IenkahaJ_dJzsmbXKqx0lS/view?usp=sharing"
+                                class="btn btn-primary px-3 mt-3">My Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container about-section">
+            <h2 class="section-heading text-center fw-bold">About Me</h2>
+            <div class="row about-me">
+                <div class="col-lg-5 about-portrait">
+                    <img src="./images/about-me.jpg" class="img-fluid pic " alt="avatar img">
+                </div>
+                <div class="col-lg-7">
+                    <p class="bio">
+                        Welcome to my portfolio website! I'm Sachin Kumar, a pre-final year B.Tech student specializing
+                        in Information Technology. With a passion for crafting seamless digital experiences, I've honed
+                        my skills in web development, Flutter development, and various programming languages. My
+                        portfolio showcases a diverse range of web and app projects, reflecting my commitment to
+                        innovation and excellence. With an analytical mindset and a dedication to staying updated with
+                        emerging technologies, I'm ready to make a significant impact in the IT industry.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="portfolio" id="projects">
+        <div class="container-lg py-4 project-section">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./images/algosmart.jpg" class="card-img-top" alt="project1">
+                        <div class="card-body">
+                            <h5 class="card-title">AlgoSmart</h5>
+                            <p class="card-text">This project provide a platform to help students learn and understand
+                                Data Structures and Algorithms through interactive animations. After learning each
+                                concept, students can take a quiz to test their understanding and receive a score based
+                                on their performance.
+                            </p>
+                            <a href="https://drive.google.com/file/d/1qvK9WO0FpR7tn_TmHgn2OW9dXWFxH8X0/view"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./images/prompt-share.png" class="card-img-top" alt="project1">
+                        <div class="card-body">
+                            <h5 class="card-title">Prompt Sharing Platform</h5>
+                            <p class="card-text">This Next.js-based web project aims to provide a collaborative
+                                environment for users to discover, create, and share AI prompts with the community. This
+                                project has features like Discover and Share AI Prompts, Modify and Remove Created
+                                Prompts, Copy Prompt to Clipboard, Tag-Based Prompt Search, Google Authentication, etc.
+                            </p>
+                            <a href="https://prompt-sharing-platform-nine.vercel.app/" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./images/to-do-list.webp" class="card-img-top" alt="project1">
+                        <div class="card-body">
+                            <h5 class="card-title">To-DoList-using-MogoDB</h5>
+                            <p class="card-text">The application allows users to create tasks, mark them as complete,
+                                and delete tasks. MongoDB provides a scalable and flexible solution for storing and
+                                retrieving task data efficiently.
+                            </p>
+                            <a href="https://to-do-list-oq4o.onrender.com/" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./images/email-newsletter.jpg" class="card-img-top" alt="project1">
+                        <div class="card-body">
+                            <h5 class="card-title">Newsletter-Signup-using-mailChimp-API</h5>
+                            <p class="card-text">Basic newsletter website that requests the user's Name and Email
+                                Address using Mailchimp API and then utilises the server's POST method to save the data.
+                            </p>
+                            <a href="https://newsletter-signup-using-mailchimp-api.onrender.com/"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-3 py-md-5" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="bg-white border rounded shadow-sm p-4">
+                        <form action="" method="POST" id="contact-form">
+                            <div class="mb-3">
+                                <label for="fullname" class="form-label">Full Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" name="fullname" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message <span
+                                        class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>Connect with me on social media:</p>
+        <a href="#" class="social-link"><i class="icon fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="icon fa-brands fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="icon fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/sachin63kumar/" class="social-link"><i
+                class="icon fab fa-linkedin"></i></a>
+        <a href="https://github.com/Sachin63Kumar" class="social-link"><i class="icon fab fa-github"></i></a>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/da4730be4a.js" crossorigin="anonymous"></script>
+    <script>
+        // Form submission handling
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // W can handle form submission here (e.g., using fetch API to send form data to server)
+            alert('Form submission is not implemented yet.');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin-top: 80px;
+}
+
+.header {
+    background-color: #5eaaa8;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 70px;
+}
+
+.navbar-brand {
+    padding-left: 5%;
+    font-weight: 500;
+    color: #1471fc;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.navbar-brand:hover {
+    color: #07439e;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.offcanvas-title {
+    color: #1471fc;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: rgb(93, 93, 93);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: black;
+}
+
+#home {
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.home-text {
+    padding-left: 30px;
+}
+
+#avatar-section {
+    min-height: 70vh;
+}
+
+.avatar-img {
+    max-width: 70%;
+    height: 70%;
+}
+
+.about-me {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-heading {
+    margin-top: 4rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio {
+    margin-top: 4rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #010e20;
+    color: #ffffff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.icon {
+    padding-top: 1rem;
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon:hover {
+    color: #5a9cff;
+}
+
+.social-link {
+    margin: 20px 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
+
+    #avatar-section {
+        max-height: 90vh;
+    }
+
+    .avatar-img {
+        max-width: 50%;
+        height: 50%;
+    }
+
+    .home-text {
+        text-align: center;
+        padding: 0 12px;
+    }
+
+    .card-img-top {
+        height: 70%;
+    }
+
+    .project-section{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 995px) {
+    .navbar {
+        height: 60px;
+    }
+
+    #avatar-section {
+        min-height: 60vh;
+    }
+
+    .card-img-top {
+        height: 70%;
+    }
+
+    .about-portrait {
+        width: 60%;
+    }
+}
+
+@media (min-width: 625px) and (max-width: 768px) {
+    .intro {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-portrait {
+        width: 60%;
+    }
+
+    .home-text {
+        padding-bottom: 1rem;
+    }
+
+    .card-img-top {
+        height: 70%;
+    }
+}
+
+@media (max-width: 625px) {
+    .about-portrait {
+        width: 70%;
+    }
+
+    .bio {
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .project-section{
+        width: 85%;
+    }
+
+    .offcanvas {
+        max-width: 60%;
+    }
+}
